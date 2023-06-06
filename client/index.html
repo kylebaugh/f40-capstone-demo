@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Margarita Mountain</title>
+</head>
+<body>
+    <header>
+        <h1>Margarita Mountain</h1>
+    </header>
+
+    <main>
+
+        <section id="intro" >
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. At aliquam rem laudantium et quasi molestias ex, beatae cupiditate dolorum ratione ipsum exercitationem hic officia, veritatis assumenda, magnam deserunt eos voluptas.</h3>
+        </section>
+
+        <section id="newDrink">
+            <form id="drinkForm">
+                <input type="text" id="nameInput" placeholder="Name">
+                <input type="text" id="urlInput" placeholder="Image URL">
+                <input type="text" id="ingredientsInput" placeholder="Ingredients">
+                <p>*Ingredients should be separated by a comma*</p>
+                <button id="addDrinkBtn">Add Drink!</button>
+            </form>
+        </section>
+
+        <section id="drinkCardDisplay"></section>
+
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

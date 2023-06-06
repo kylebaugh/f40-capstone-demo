@@ -1,0 +1,13 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drinkPic{
+    max-width: 30vw;
+}
+
+.ratingButtons{
+    display:flex;
+}
